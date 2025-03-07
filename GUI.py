@@ -8,7 +8,7 @@ from PIL import Image, ImageDraw
 import os
 
 # Load the trained CNN model
-model = load_model("C:\Users\ksomi\Desktop\Project\main\digit_classifier.h5")
+model = load_model(r"C:\Users\ksomi\Desktop\Project\main\digit_classifier.h5")
 print(model.summary())
 
 # Function to predict digit
